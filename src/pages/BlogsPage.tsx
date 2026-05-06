@@ -1,6 +1,5 @@
-import React from 'react';
 import { motion } from 'framer-motion';
-import { Calendar, User, ArrowRight, BookOpen, Search, Filter } from 'lucide-react';
+import { Calendar, User, ArrowRight, BookOpen, Search } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 

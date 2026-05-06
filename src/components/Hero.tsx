@@ -73,7 +73,7 @@ const Hero = () => {
                         alt={uni.name}
                         className="h-8 sm:h-10 md:h-12 w-auto object-contain"
                         onError={(e) => {
-                          const target = e.target;
+                          const target = e.target as HTMLImageElement;
                           target.src = `https://www.google.com/s2/favicons?domain=${uni.url}&sz=128`;
                         }}
                       />
@@ -99,7 +99,7 @@ const Hero = () => {
                         alt={uni.name}
                         className="h-8 sm:h-10 md:h-12 w-auto object-contain"
                         onError={(e) => {
-                          const target = e.target;
+                          const target = e.target as HTMLImageElement;
                           target.src = `https://www.google.com/s2/favicons?domain=${uni.url}&sz=128`;
                         }}
                       />

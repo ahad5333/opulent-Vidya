@@ -2,9 +2,9 @@ import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   MessageCircle, X, Send, Mic, RotateCcw,
-  MessageSquare, Loader2, Globe, ChevronRight,
-  Sparkles, Search, GraduationCap, MapPin, 
-  PhoneCall, Volume2, VolumeX, ArrowRight, Bot
+  Loader2, Globe,
+  Sparkles, GraduationCap,
+  PhoneCall, Volume2, VolumeX, Bot
 } from 'lucide-react';
 
 // --- Types ---
@@ -71,14 +71,6 @@ const suggestedQuestions = [
 ];
 
 // --- Mock Data (Synced with project) ---
-const courseData = [
-  { title: "AWS Certification", category: "IT Training", level: "Intermediate", duration: "3 Months" },
-  { title: "Data Science Training", category: "Data & AI", level: "Intermediate", duration: "3 Months" },
-  { title: "Artificial Intelligence", category: "Data & AI", level: "Advanced", duration: "3 Months" },
-  { title: "Python Training", category: "IT Training", level: "Beginner", duration: "2 Months" },
-  { title: "Digital Marketing", category: "Digital & Design", level: "Beginner", duration: "2 Months" }
-];
-
 const destinationData = [
   { country: "USA", universities: "4,000+", cost: "$25k - $45k", desc: "Hub for innovation and Ivy League excellence." },
   { country: "Canada", universities: "100+", cost: "CAD 20k - 40k", desc: "Great PR opportunities and inclusive environment." },
@@ -93,10 +85,7 @@ export default function ChatWidget() {
   const [chatHistory, setChatHistory] = useState<{ role: 'user' | 'ai'; text: string; timestamp: string; type?: 'course' | 'destination' | 'action' }[]>([]);
   const [chatStep, setChatStep] = useState<ChatStep>('CHOOSE_LANG');
   const [isTyping, setIsTyping] = useState(false);
-  const [userName, setUserName] = useState("");
-  const [userEmail, setUserEmail] = useState("");
   const [assistantState, setAssistantState] = useState<AssistantState>('idle');
-  const [isVoiceMode, setIsVoiceMode] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
   const [mounted, setMounted] = useState(false);
   
@@ -172,11 +161,9 @@ export default function ChatWidget() {
       simulateAiResponse(activeT.introMessage, 'ASK_NAME', langCode);
     } else if (chatStep === 'ASK_NAME') {
       if (msgToSend.length < 2) { simulateAiResponse(activeT.errName); return; }
-      setUserName(msgToSend);
       simulateAiResponse(activeT.askEmail(msgToSend), 'ASK_EMAIL');
     } else if (chatStep === 'ASK_EMAIL') {
       if (!msgToSend.includes('@') || msgToSend.length < 5) { simulateAiResponse(activeT.errEmail); return; }
-      setUserEmail(msgToSend);
       simulateAiResponse(activeT.askPhone, 'ASK_PHONE');
     } else if (chatStep === 'ASK_PHONE') {
       simulateAiResponse(activeT.interactiveStart, 'INTERACTIVE');
@@ -212,8 +199,6 @@ export default function ChatWidget() {
     window.speechSynthesis.cancel();
     setChatHistory([{ role: 'ai', text: translations.en.langPrompt, timestamp: getTimestamp() }]);
     setChatStep('CHOOSE_LANG');
-    setUserName("");
-    setUserEmail("");
     setLanguage('en');
     setIsOpen(true);
     setIsTyping(false);

@@ -1,12 +1,11 @@
 import { useState, useEffect } from 'react';
 import { Menu, X, Globe, ChevronDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -64,7 +63,7 @@ const Navbar = () => {
             ) : (
               <Link 
                 key={item.name} 
-                to={item.path} 
+                to={item.path || ''} 
                 className="group flex items-center gap-1 text-[15px] font-bold text-secondary hover:text-primary transition-all relative"
               >
                 {item.name}
@@ -126,7 +125,7 @@ const Navbar = () => {
                 ) : (
                   <Link 
                     key={item.name}
-                    to={item.path}
+                    to={item.path || ''}
                     onClick={() => setIsMobileMenuOpen(false)}
                     className="text-2xl font-extrabold text-secondary hover:text-primary transition-colors"
                   >
