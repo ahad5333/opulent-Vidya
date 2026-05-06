@@ -1,0 +1,731 @@
+[
+  {
+    "hash": "ba641ef",
+    "fullHash": "ba641ef4eb6c57721e722ee9d4da31add99022c4",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-06 12:20:40 +0530",
+    "message": "Refactor Marketplace & Careers, Enhance Staffing page with animations and realistic images, and optimize ChatWidget for mobile",
+    "branch": "main"
+  },
+  {
+    "hash": "7fd7072",
+    "fullHash": "7fd707276e14b35dfb183ed90fa26cd7f0e84fb3",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-05 21:07:02 +0530",
+    "message": "chore: remove temporary file",
+    "branch": "main"
+  },
+  {
+    "hash": "99bb42f",
+    "fullHash": "99bb42fee271ec8edea16227b57d4971bb441920",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-05 21:06:21 +0530",
+    "message": "fix: resolve TypeScript error in Testimonials animation and unblock Vercel build",
+    "branch": "main"
+  },
+  {
+    "hash": "5d47845",
+    "fullHash": "5d47845bbffad2936ca2e0a3708969ee1b1cc3a8",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-05 20:48:10 +0530",
+    "message": "feat: complete HCTPL rebranding to HTC Inc theme, added realistic brand visuals, and modern scrolling testimonials with Indian client reviews",
+    "branch": "main"
+  },
+  {
+    "hash": "55007dd",
+    "fullHash": "55007ddad2f9aea893f77a7200ac3e535165b5b9",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 20:26:24 +0530",
+    "message": "feat: Synchronize Hindi FAQs and improve speech toggle logic",
+    "branch": "main"
+  },
+  {
+    "hash": "19608be",
+    "fullHash": "19608be20f215f666b7efac4e216389c4f371cdb",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 20:19:32 +0530",
+    "message": "feat: Remove Commits from navbar",
+    "branch": "main"
+  },
+  {
+    "hash": "1a13711",
+    "fullHash": "1a13711314ca542d92979a5a63386271b7c51557",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 20:14:53 +0530",
+    "message": "feat: Remove automatic greeting speech on page load",
+    "branch": "main"
+  },
+  {
+    "hash": "f5a9bf4",
+    "fullHash": "f5a9bf491d6cd8c6dade2ceb8196ac6bd481ca1a",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 19:31:45 +0530",
+    "message": "feat: Enhance ChatWidget with session persistence, tree FAQs, and conversational logic",
+    "branch": "main"
+  },
+  {
+    "hash": "0c0b0a1",
+    "fullHash": "0c0b0a1472f00d62884c64f656ef0dcaccf064cd",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 19:13:21 +0530",
+    "message": "chore: Finalize AI greeting logic and sync all layout improvements",
+    "branch": "main"
+  },
+  {
+    "hash": "d297796",
+    "fullHash": "d297796caf80d59369aa2592d91d4a74f3994e5c",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 19:05:54 +0530",
+    "message": "style: Increase mobile avatar size for better visibility",
+    "branch": "main"
+  },
+  {
+    "hash": "4ba13c1",
+    "fullHash": "4ba13c10bae5d1aaa979b90855fed6d038f59cba",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 17:39:46 +0530",
+    "message": "fix: Make AI greeting instantaneous on load",
+    "branch": "main"
+  },
+  {
+    "hash": "a5ae74c",
+    "fullHash": "a5ae74ca266eb54d439b56c89487da043dc1da3c",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 17:34:34 +0530",
+    "message": "fix: Ensure greeting is spoken on every load even if initially silenced",
+    "branch": "main"
+  },
+  {
+    "hash": "aaf8e50",
+    "fullHash": "aaf8e506f408efa2c29453bbecd965a60d2b8e92",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 17:32:43 +0530",
+    "message": "style: Move avatar to left on desktop and top-middle on mobile with increased size",
+    "branch": "main"
+  },
+  {
+    "hash": "9700727",
+    "fullHash": "9700727dd2b2bdedefba80385340aeccffc1c254",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 17:28:00 +0530",
+    "message": "fix: Complete cleanup of ChatWidget, fixed mobile overflow and ensured load-speech reliability",
+    "branch": "main"
+  },
+  {
+    "hash": "3338dde",
+    "fullHash": "3338dde97fc60b49fd13f37280734038ded71e75",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 17:23:27 +0530",
+    "message": "fix: Resolve syntax error and stabilize balanced responsiveness",
+    "branch": "main"
+  },
+  {
+    "hash": "9efec0a",
+    "fullHash": "9efec0a56c780749972a8af947a0f5ecc09b9951",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 17:18:23 +0530",
+    "message": "style: Restore desktop UI while keeping phone screen optimizations",
+    "branch": "main"
+  },
+  {
+    "hash": "9538d4d",
+    "fullHash": "9538d4d5c99316f0ee273820ba34884ba2c298a5",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 17:14:47 +0530",
+    "message": "style: Make ChatWidget fully responsive for mobile screens",
+    "branch": "main"
+  },
+  {
+    "hash": "35808d2",
+    "fullHash": "35808d2fbcca5660fcb6ec17a9bb280c376ab45e",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 17:12:02 +0530",
+    "message": "fix: Resolve mismatched div tags and finalize AI auto-start",
+    "branch": "main"
+  },
+  {
+    "hash": "33f9c4a",
+    "fullHash": "33f9c4a9af424f7fd865e89a362ef5ff6b0ca5c7",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 17:06:19 +0530",
+    "message": "fix: Resolve syntax error and ensure AI always starts on reload",
+    "branch": "main"
+  },
+  {
+    "hash": "d85c505",
+    "fullHash": "d85c5056083bda4239fd9c2767150010d778baed",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 16:56:38 +0530",
+    "message": "fix: Resolve build errors (missing functions, imports, and type definitions) causing GitHub deployment failures",
+    "branch": "main"
+  },
+  {
+    "hash": "5ed567c",
+    "fullHash": "5ed567c74c71addfecffbf9c51489ff975606405",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 16:45:29 +0530",
+    "message": "feat: Add Commit History page with filters and data generation script",
+    "branch": "main"
+  },
+  {
+    "hash": "37cb69f",
+    "fullHash": "37cb69f975860cefb21597f8553dd0aee2beb333",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 16:35:52 +0530",
+    "message": "Make ChatWidget responsive for mobile screens",
+    "branch": "main"
+  },
+  {
+    "hash": "e0bde66",
+    "fullHash": "e0bde66883b74462bab89269bcb907282a5c2119",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 13:47:54 +0530",
+    "message": "feat: 1:1 Manatal Match - AI Interviewer Everything Same Deployment",
+    "branch": "main"
+  },
+  {
+    "hash": "3ac19e7",
+    "fullHash": "3ac19e75b33ccc7e5546d16ce404e6be58f8dc6d",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 13:45:35 +0530",
+    "message": "feat: Launch standalone AI Interviewer Product Page - Manatal Experience Replicated",
+    "branch": "main"
+  },
+  {
+    "hash": "294f9fe",
+    "fullHash": "294f9fe13067e245c7a5ed30f6b18e3176ee1fbc",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 13:43:06 +0530",
+    "message": "feat: Final High-Fidelity Manatal Clone - Complete RecruitPro Ecosystem Deployment",
+    "branch": "main"
+  },
+  {
+    "hash": "7a1f75a",
+    "fullHash": "7a1f75a23db46897b18b49bda8e4ef34d43ccce3",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 13:40:03 +0530",
+    "message": "feat: Launch RecruitPro OS - Manatal-Inspired Enterprise ATS Architecture",
+    "branch": "main"
+  },
+  {
+    "hash": "e2961ad",
+    "fullHash": "e2961ad168fc9db013092abe69116a07dbf37b09",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 13:33:05 +0530",
+    "message": "design: Rebrand Recruiter OS to Aeon Platinum - Decent & Professional Enterprise UI",
+    "branch": "main"
+  },
+  {
+    "hash": "5f106ca",
+    "fullHash": "5f106ca0df9d64e3351e0212815378acb98a780c",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 13:28:08 +0530",
+    "message": "style: Remove global social icons and chat from AI Recruiter to focus UI",
+    "branch": "main"
+  },
+  {
+    "hash": "975b6dc",
+    "fullHash": "975b6dc041e70defbbae5b461127e70dccec9f97",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 13:24:01 +0530",
+    "message": "feat: Launch HCTPL RECRUIT OS - Pro Enterprise Tier with Sourcing Map and Code Grading",
+    "branch": "main"
+  },
+  {
+    "hash": "378629e",
+    "fullHash": "378629e6d05265733c56442ff04c34a354b41858",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 13:20:53 +0530",
+    "message": "fix: Resolve missing Mic and RotateCcw icons in AI Recruiter Interviewer",
+    "branch": "main"
+  },
+  {
+    "hash": "1ce6498",
+    "fullHash": "1ce649836cd0f87a70337a24ff7e10e1cd9aa22f",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 13:20:01 +0530",
+    "message": "fix: Resolve missing Briefcase icon in AI Recruiter Platform",
+    "branch": "main"
+  },
+  {
+    "hash": "4828da0",
+    "fullHash": "4828da0a35525cd16c1ee7d56ab6322ed0031572",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 13:19:28 +0530",
+    "message": "feat: Launch AI Recruiter 2.0 - Full interactive dashboard, AI avatars, and premium gating",
+    "branch": "main"
+  },
+  {
+    "hash": "e89a49c",
+    "fullHash": "e89a49c4562374b3d5f515f0dc441428745824d3",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 13:15:02 +0530",
+    "message": "fix: Resolve JSX parsing error in AI Recruiter terminal mock",
+    "branch": "main"
+  },
+  {
+    "hash": "fc4342d",
+    "fullHash": "fc4342d80fcd968c52aac23fdba52c9dd8a4c5bb",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 13:14:08 +0530",
+    "message": "feat: Launch standalone AI Recruiter Platform with subscription gating and Navbar cleanup",
+    "branch": "main"
+  },
+  {
+    "hash": "3edf3fc",
+    "fullHash": "3edf3fcf883f61835c663719eedb6213734be989",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 13:07:02 +0530",
+    "message": "fix: Resolve hydration mismatches in Pricing and Careers pages",
+    "branch": "main"
+  },
+  {
+    "hash": "0a98998",
+    "fullHash": "0a98998b920a53015f36d499a8d99c8d9707b61a",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 13:05:37 +0530",
+    "message": "fix: Resolve missing useState import in Pricing section",
+    "branch": "main"
+  },
+  {
+    "hash": "adab9f8",
+    "fullHash": "adab9f8bf284ac0526e2a0012db60560d11b2034",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 13:04:00 +0530",
+    "message": "fix: Resolve missing Upload icon import in Admin Panel",
+    "branch": "main"
+  },
+  {
+    "hash": "2a9b923",
+    "fullHash": "2a9b923215b82b7cb6606c3b5cfb55c3ae382288",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 13:02:26 +0530",
+    "message": "feat: Integrated CV Review system with AI Fit Score and Status Management",
+    "branch": "main"
+  },
+  {
+    "hash": "76b79c1",
+    "fullHash": "76b79c110f34c145d63538189f046a4b629261c9",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 12:57:01 +0530",
+    "message": "fix: Improve Admin Panel input visibility with black text",
+    "branch": "main"
+  },
+  {
+    "hash": "1801cfa",
+    "fullHash": "1801cfad8dfa1eeebb3698e6e3c40cd6d2860ce7",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 12:53:40 +0530",
+    "message": "feat: Launch Master Admin OS - ATS, CMS, AI Trainer, and Analytics Hub",
+    "branch": "main"
+  },
+  {
+    "hash": "3cb45c3",
+    "fullHash": "3cb45c3301413a0885442ae9a7ca92bdeda86fb2",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 00:19:45 +0530",
+    "message": "fix: Final cleanup of non-existent ID references in Navbar to ensure production stability",
+    "branch": "main"
+  },
+  {
+    "hash": "0b6aa92",
+    "fullHash": "0b6aa92ada15345ec00fe1b7744c4c7cbb6797ef",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 00:12:12 +0530",
+    "message": "fix: Resolve TypeScript build error in Navbar to fix Vercel crash",
+    "branch": "main"
+  },
+  {
+    "hash": "ef867c3",
+    "fullHash": "ef867c38381650b7a943b82c0ccc86c1b76d56af",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-04 00:04:14 +0530",
+    "message": "Rebrand to Aryan AI: Video-interactive persona, masculine voice synthesis, and enhanced FAQ logic",
+    "branch": "main"
+  },
+  {
+    "hash": "44ae69f",
+    "fullHash": "44ae69f87ec6b0f70bea4e5fc36bdecdcab526e2",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-03 19:33:14 +0530",
+    "message": "fix: Navbar color mismatch on sub-pages with light backgrounds",
+    "branch": "main"
+  },
+  {
+    "hash": "c1b8e11",
+    "fullHash": "c1b8e1175654f4705e4c2de23ace7779e8c761e9",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-03 19:19:06 +0530",
+    "message": "feat: Advanced Voice & Intelligence - Persistence, Multilingual support, and AI Showcase section",
+    "branch": "main"
+  },
+  {
+    "hash": "5dab982",
+    "fullHash": "5dab982f1aaddff15b6ac0b311873049b0f3f383",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-03 19:13:29 +0530",
+    "message": "feat: Launch IT Services Marketplace - Talent Grid, Hero, and Route integration",
+    "branch": "main"
+  },
+  {
+    "hash": "c4998d7",
+    "fullHash": "c4998d78686cf508a1b0ddb0227f1b4fe9ced9c0",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-03 19:07:22 +0530",
+    "message": "feat: Launch AI Recruiter Platform Phase 1 - Dashboard, Hero, and Route integration",
+    "branch": "main"
+  },
+  {
+    "hash": "09d6f06",
+    "fullHash": "09d6f06de83e6729025cc3c8bf4112c337b6fa1f",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-03 19:00:33 +0530",
+    "message": "feat: Premium Logo Marquee with scanning light and Left-to-Right motion, and robust Female Voice pre-loading",
+    "branch": "main"
+  },
+  {
+    "hash": "6e7ae1b",
+    "fullHash": "6e7ae1bca03c82b2b4373b2d991f046b92a311a2",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-03 16:46:09 +0530",
+    "message": "final: confirmed all Priya AI features are pushed and synced",
+    "branch": "main"
+  },
+  {
+    "hash": "5a754c0",
+    "fullHash": "5a754c004a89a23aadbd3711762283892d6cb085",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-03 16:45:16 +0530",
+    "message": "chore: Final double-check and sync for Priya AI updates",
+    "branch": "main"
+  },
+  {
+    "hash": "5ec89c4",
+    "fullHash": "5ec89c42ba0b90a861eeee2b7ac984f0b48ff194",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-03 16:44:25 +0530",
+    "message": "feat: Final polish for Priya - Enhanced size, glowing aura, and stabilized female voice",
+    "branch": "main"
+  },
+  {
+    "hash": "a05ff8b",
+    "fullHash": "a05ff8bf456a990aeca0ba6b912f92e98974b279",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-03 16:42:43 +0530",
+    "message": "fix: Move mobile avatar left to reveal header buttons",
+    "branch": "main"
+  },
+  {
+    "hash": "9b08131",
+    "fullHash": "9b08131ee6f9590192ed4489e6f7193e24d25c01",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-03 16:40:24 +0530",
+    "message": "style: Clean up formatting in ChatWidget.tsx",
+    "branch": "main"
+  },
+  {
+    "hash": "10eb244",
+    "fullHash": "10eb2449955953a37b078ca081431a5f46c190e8",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-03 16:37:58 +0530",
+    "message": "feat: Significantly increase avatar size for desktop and mobile",
+    "branch": "main"
+  },
+  {
+    "hash": "d035da5",
+    "fullHash": "d035da5c9c30d65dd03d6a04b7aec981ca838d2d",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-03 16:35:32 +0530",
+    "message": "fix: Optimize avatar responsiveness and transition speeds for realism",
+    "branch": "main"
+  },
+  {
+    "hash": "bae113f",
+    "fullHash": "bae113fa6bfa924cae38aaa78d2a2e7017997007",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-03 16:33:27 +0530",
+    "message": "feat: Stabilize female voice selection and pre-load voices",
+    "branch": "main"
+  },
+  {
+    "hash": "c747ac2",
+    "fullHash": "c747ac2bd204478cc6f590522f26143ea37b0e05",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-03 16:32:17 +0530",
+    "message": "fix: Resolve JSX syntax error in ChatWidget.tsx",
+    "branch": "main"
+  },
+  {
+    "hash": "259fec6",
+    "fullHash": "259fec6d193ba81e687cf0a84a9b5f9ceeaa715c",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-03 16:30:59 +0530",
+    "message": "feat: Enhance avatar with larger size and realistic glowing background animations",
+    "branch": "main"
+  },
+  {
+    "hash": "6a258e9",
+    "fullHash": "6a258e9e789f935b0df4092df76687d6782679b1",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-03 16:27:50 +0530",
+    "message": "feat: Restore desktop circle avatar and prioritize female voice",
+    "branch": "main"
+  },
+  {
+    "hash": "2fafb50",
+    "fullHash": "2fafb50b248d99115fe142ee2484404c792fa839",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-03 16:24:38 +0530",
+    "message": "fix: Restore desktop layout and polish mobile header avatar responsiveness",
+    "branch": "main"
+  },
+  {
+    "hash": "cdced69",
+    "fullHash": "cdced69de963dfde5287b53574eddcc63999455b",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-03 16:22:09 +0530",
+    "message": "fix: Resolve responsive overlapping by increasing avatar z-index",
+    "branch": "main"
+  },
+  {
+    "hash": "8024a37",
+    "fullHash": "8024a37ac15b8b50897b252cbfb6fa86bff4706d",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-03 16:19:39 +0530",
+    "message": "feat: Sync avatar with user typing and style input text blue",
+    "branch": "main"
+  },
+  {
+    "hash": "3a8aa04",
+    "fullHash": "3a8aa04c80ba54dfb6409824505809cfb91c04db",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-03 16:16:43 +0530",
+    "message": "fix: Silence AI on close and adjust mobile avatar position",
+    "branch": "main"
+  },
+  {
+    "hash": "05359ec",
+    "fullHash": "05359ecb2d53b4a10bdcd5368ddaa5c367b600d5",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-03 16:13:59 +0530",
+    "message": "feat: Optimize mobile avatar size and position beside header close button",
+    "branch": "main"
+  },
+  {
+    "hash": "a5caff0",
+    "fullHash": "a5caff0aa488dc320835aca913b7b85c331b659a",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-03 16:09:13 +0530",
+    "message": "feat: Synchronize mobile avatar layout with desktop creative experience",
+    "branch": "main"
+  },
+  {
+    "hash": "ee94934",
+    "fullHash": "ee949341ef52c18721f2aac1b811952f4f5c1c77",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-03 16:07:39 +0530",
+    "message": "feat: Add 10 core FAQs and remove human agent pivot",
+    "branch": "main"
+  },
+  {
+    "hash": "99d178c",
+    "fullHash": "99d178c363eff7f7b3c7f4833778f51a68a7f314",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-03 16:04:22 +0530",
+    "message": "feat: Implement 'Realistic & Creative' beside-chat avatar layout",
+    "branch": "main"
+  },
+  {
+    "hash": "eed32e1",
+    "fullHash": "eed32e11938a9bcf8caf64be10b15aac4d4faa73",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-03 15:55:32 +0530",
+    "message": "feat: Sync floating avatar speaking state and fix logo marquee direction",
+    "branch": "main"
+  },
+  {
+    "hash": "36b9be5",
+    "fullHash": "36b9be5351a88975d2fbcbe40a3ba8451ca6f0b0",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-03 15:51:10 +0530",
+    "message": "feat: Restore floating avatar preview and personalized message icons",
+    "branch": "main"
+  },
+  {
+    "hash": "4c54343",
+    "fullHash": "4c543439fff5a5702722851a9c8f8691831ac5fc",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-03 15:43:12 +0530",
+    "message": "fix: Resolve 'data' reference error in queryOllama to fix production build",
+    "branch": "main"
+  },
+  {
+    "hash": "3cc23da",
+    "fullHash": "3cc23da637e40646d022376d0212df0dfb726976",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-03 15:38:53 +0530",
+    "message": "feat: Upgrade Priya AI Assistant with synced voice, 15 FAQs, and fluid avatar transitions",
+    "branch": "main"
+  },
+  {
+    "hash": "2ae20e3",
+    "fullHash": "2ae20e3a708359ab08768c22104af387b6f7ba66",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-03 13:09:13 +0530",
+    "message": "Final professional Tech Enterprise theme overhaul and responsiveness fixes",
+    "branch": "main"
+  },
+  {
+    "hash": "5d79879",
+    "fullHash": "5d798791f34dc83039ed8444ecc8482c237ec5b3",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-02 23:34:15 +0530",
+    "message": "Add lead gen chat flow, video auto-pause, and Priya female TTS",
+    "branch": "main"
+  },
+  {
+    "hash": "9e04fc2",
+    "fullHash": "9e04fc20a5285fa046ba38d0af9d7a51c221e7c8",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-02 23:14:47 +0530",
+    "message": "Add TTS AI voice greeting when chat opens",
+    "branch": "main"
+  },
+  {
+    "hash": "e782c32",
+    "fullHash": "e782c327d264973f4745a97994bef89a1b9d2830",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-02 23:10:01 +0530",
+    "message": "Implement transparent video avatar and multilingual chat support",
+    "branch": "main"
+  },
+  {
+    "hash": "6a306bd",
+    "fullHash": "6a306bd662e5fc61b3ec065bef5e55afc4fc3405",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-02 22:49:04 +0530",
+    "message": "Fix tailwind config typescript error",
+    "branch": "main"
+  },
+  {
+    "hash": "4362e94",
+    "fullHash": "4362e9437e441c55190b0315074a0ef9107c8eb2",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-02 22:29:19 +0530",
+    "message": "Update chat widget, fix marquee, and add pricing section",
+    "branch": "main"
+  },
+  {
+    "hash": "4c737cd",
+    "fullHash": "4c737cd8f27b8b8b8e9de32afb814e6bdbbf3ccf",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-02 22:05:35 +0530",
+    "message": "feat: add animated chat widget and update UI",
+    "branch": "main"
+  },
+  {
+    "hash": "b6c25d4",
+    "fullHash": "b6c25d48d4b85847438a04a64d93dcfa08b242c6",
+    "author": "Mohammed Ahadullah",
+    "email": "108590177+ahad5333@users.noreply.github.com",
+    "date": "2026-05-02 21:27:56 +0530",
+    "message": "Revise README with project details and setup instructions",
+    "branch": "main"
+  },
+  {
+    "hash": "44e2284",
+    "fullHash": "44e2284526422c80e9c2a3a6bd24569692ca3b3b",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-02 21:25:11 +0530",
+    "message": "first commit",
+    "branch": "main"
+  },
+  {
+    "hash": "dfe72a2",
+    "fullHash": "dfe72a2cfdf4d4cc26ab7875e0c33c0225787f29",
+    "author": "Mohammed ahadullah",
+    "email": "ahad53344@gmail.com",
+    "date": "2026-05-02 17:21:48 +0530",
+    "message": "Initial commit from Create Next App",
+    "branch": "main"
+  }
+]
